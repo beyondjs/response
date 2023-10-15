@@ -1,0 +1,5 @@
+{
+  "platforms": ["node"],
+  "bundle": "ts",
+  "files": "*"
+}
