@@ -1,4 +1,4 @@
-import { ErrorManager } from '@aimpact/ailearn-api/errors-manager';
+import { ErrorManager } from './error-manager';
 
 export /*bundle*/ class Response<DataType> {
 	#error: ErrorManager;
