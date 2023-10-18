@@ -1,8 +1,9 @@
 {
 	"name": "@beyondjs/response",
 	"version": "0.0.1",
-	"title": "",
-	"description": "",
+	"title": "BeyondJS Response",
+	"description": "The Response module provides a standard way of encapsulating data and error messages returned by API calls",
+	"repository": "https://github.com/beyondjs/response",
 	"license": "MIT",
 	"scripts": {
 		"start": "node --enable-source-maps runners/empty.js"
@@ -25,7 +26,7 @@
 				"environment": "local",
 				"platform": "node",
 				"ports": {
-					"bundles": 6000
+					"bundles": 7000
 				}
 			},
 			{
@@ -36,7 +37,7 @@
 					"compiler": "tsc"
 				},
 				"ports": {
-					"bundles": 6600
+					"bundles": 7700
 				}
 			}
 		]
