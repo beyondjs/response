@@ -1,5 +1,5 @@
 {
-	"name": "@beyondjs/response",
+	"name": "@beyond-js/response",
 	"version": "0.0.1",
 	"title": "BeyondJS Response",
 	"description": "The Response module provides a standard way of encapsulating data and error messages returned by API calls",

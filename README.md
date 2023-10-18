@@ -16,7 +16,7 @@ the `ModelError` class from the `Errors` module for error handling.
 To use this module in your project, import it as follows:
 
 ```typescript
-import { Response } from '@aimpact/ailearn-api/response';
+import { Response } from '@beyond-js/response/main';
 ```
 
 ### Creating a Response Object
