@@ -1,2 +1,4 @@
 node_modules
 .beyond
+node_modules/
+!modules/node_modules/
