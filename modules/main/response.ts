@@ -1,12 +1,12 @@
 import { ErrorManager } from './error-manager';
 
-export /*bundle*/ class Response<DataType> {
-	#error: ErrorManager;
+export /*bundle*/ class Response<DATA, ERROR extends ErrorManager> {
+	#error: ERROR;
 	get error() {
 		return this.#error;
 	}
 
-	#data?: DataType;
+	#data?: DATA;
 	get data() {
 		return this.#data;
 	}
@@ -15,7 +15,7 @@ export /*bundle*/ class Response<DataType> {
 		return !this.#error;
 	}
 
-	constructor(params: { error?: ErrorManager; data?: DataType }) {
+	constructor(params: { error?: ERROR; data?: DATA }) {
 		const { error, data } = params;
 		this.#error = error;
 		this.#data = data;
