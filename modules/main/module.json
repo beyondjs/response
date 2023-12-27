@@ -1,6 +1,6 @@
 {
 	"name": "main",
-	"platforms": ["node"],
+	"platforms": ["*"],
 	"bundle": "ts",
 	"files": "*"
 }

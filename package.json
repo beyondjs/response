@@ -1,6 +1,6 @@
 {
 	"name": "@beyond-js/response",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"title": "BeyondJS Response",
 	"description": "The Response module provides a standard way of encapsulating data and error messages returned by API calls",
 	"repository": "https://github.com/beyondjs/response",
